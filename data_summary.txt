@@ -1,6 +1,0 @@
-Total samples: 10132
-Missing genetic data: 2071
-Missing image data: 6659
-Missing atlas data: 8565
-Valid samples with all modalities: 1395
-Samples missing only atlas data: 1889
