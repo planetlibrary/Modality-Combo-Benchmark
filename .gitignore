@@ -1,1 +1,7 @@
-MRI-3D-Image-Classification/
+.ignore/
+nicarav/
+__pycache__/
+outputs/
+test_expo_critical.py
+combination_results/
+dump/
