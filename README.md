@@ -26,11 +26,18 @@ This repository contains:
 
 ## Installation
 
-To use this repository, clone it to your local machine:
+To use this repository, create a virtual environment in your local machine.
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+After creating and activating the virtual environment, clone this to your local machine
 
 ```bash
 git clone https://github.com/planetlibrary/Modality-Combo-Benchmark.git
 cd Modality-Combo-Benchmark
 pip install -r requirements.txt
-python train_model.py
 ```
+
+## Dataset Description 
+The dataset is collected from ADNI (https://ida.loni.usc.edu/login.jsp) and Nicara (https://www.labvantage-biomax.com/products/nicara-for-morphometry-and-connectomics/). For a single subject, the corresponding EHR, SNP, MRI are collected from ADNI and the Nicara features are collected from Nicara. 
